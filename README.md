@@ -20,3 +20,5 @@
 * Indu
 * Sathish
 * Rajesh
+
+![Architecture](https://github.com/wondercode-creator/coder/blob/master/arch3.PNG)
