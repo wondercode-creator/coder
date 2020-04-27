@@ -24,3 +24,7 @@
 # Architecture
 
 ![Architecture](https://github.com/wondercode-creator/coder/blob/master/arch4.PNG)
+
+# Project Roadmap
+
+![Architecture](https://github.com/wondercode-creator/coder/blob/master/project-roadmap.PNG)
