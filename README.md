@@ -3,3 +3,20 @@
 ###### Where we have developed a Chatbot which will accept symptoms and suggest what action to take in case of Covid 19 concerns.
 ###### We have used the architecture, where in the User Interface is served by Slack with IBM watson assistant
 ###### and the back end is served by AWS DynamoDB/ AWS Lambda and API Gateway combination.
+
+
+
+# Built with
+* Slack - For the user interface
+* IBM Watson Assistant - For the chatbot platform
+* AWS DynamoDB - The DB for retreiving the response for the various symptoms and related details provided
+* AWS Lambda - The programming interface for fetching data from DynamoDB
+* AWS API Gateway - The API framework used
+
+
+#Authors
+######Amirtharaj S John
+######Saravanan Govindan
+######Indu
+######Sathish
+######Rajesh
