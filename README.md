@@ -21,4 +21,6 @@
 * Sathish
 * Rajesh
 
-![Architecture](https://github.com/wondercode-creator/coder/blob/master/arch3.PNG)
+# Architecture
+
+![Architecture](https://github.com/wondercode-creator/coder/blob/master/arch4.PNG)
