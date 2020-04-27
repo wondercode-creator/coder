@@ -1,0 +1,1856 @@
+{
+  "intents": [
+    {
+      "intent": "symptoms",
+      "examples": [
+        {
+          "text": "I have @symptoms"
+        },
+        {
+          "text": "I have cough"
+        },
+        {
+          "text": "Blueish face or lips"
+        },
+        {
+          "text": "No symptoms"
+        },
+        {
+          "text": "I feel @symptoms"
+        },
+        {
+          "text": "@symptoms"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "Covid_Testing_Locations",
+      "examples": [
+        {
+          "text": "Can I test myself at my house?"
+        },
+        {
+          "text": "Can I get tested at Walgreens?"
+        },
+        {
+          "text": "How do I get tested?"
+        },
+        {
+          "text": "Can I get tested at my doctors?"
+        },
+        {
+          "text": "Where can I get tested?"
+        },
+        {
+          "text": "testing spots for coronavirus?"
+        },
+        {
+          "text": "testing locations?"
+        }
+      ],
+      "description": "Where to get tested for Covid 19."
+    },
+    {
+      "intent": "state",
+      "examples": [
+        {
+          "text": "I belong to @ state"
+        },
+        {
+          "text": "@state"
+        },
+        {
+          "text": "I currently live in @state"
+        },
+        {
+          "text": "gujarat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "illness",
+      "examples": [
+        {
+          "text": "I suffer from @illness"
+        },
+        {
+          "text": "i have @illness"
+        },
+        {
+          "text": "@illness"
+        },
+        {
+          "text": "I used to have @illness"
+        },
+        {
+          "text": "no, I dont have any issues"
+        },
+        {
+          "text": "I dont have any issues"
+        }
+      ]
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Where were you born?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "badhabits",
+      "examples": [
+        {
+          "text": "no"
+        },
+        {
+          "text": "I @badhabits"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "testingcenter",
+      "examples": [
+        {
+          "text": "Nearby Testing centers in India"
+        },
+        {
+          "text": "Can you find the testing location"
+        },
+        {
+          "text": "I would like to know the testing centers in India"
+        },
+        {
+          "text": "testing center near to me"
+        },
+        {
+          "text": "corona testing center information"
+        },
+        {
+          "text": "shall I know the corona testing centers in India?"
+        },
+        {
+          "text": "list centers in India"
+        },
+        {
+          "text": "Please list corona testing centers in India"
+        },
+        {
+          "text": "corona testing centers"
+        },
+        {
+          "text": "testing location in India"
+        },
+        {
+          "text": "covid19 testing centers in India"
+        },
+        {
+          "text": "covid19 testing"
+        },
+        {
+          "text": "testing center for COVID-19"
+        },
+        {
+          "text": "testing center"
+        },
+        {
+          "text": "I would like to know the nearest hospital for COVID-19 assistance"
+        },
+        {
+          "text": "I want to know testing centers for COVID-19"
+        },
+        {
+          "text": "Can you please tell me where can I get tested for COVID-19"
+        },
+        {
+          "text": "I would like to know helpline number for COVID-19 assistance"
+        },
+        {
+          "text": "Where can I get the treatment for corona?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yes i think so"
+        },
+        {
+          "text": "@yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Covid_Symptoms",
+      "examples": [
+        {
+          "text": "I think I might have the virus."
+        },
+        {
+          "text": "I have travled recently. What do I do?"
+        },
+        {
+          "text": "How do i know if I'm sick"
+        },
+        {
+          "text": "Do I need to get tested?"
+        },
+        {
+          "text": "am i sick"
+        },
+        {
+          "text": "What are symptoms?"
+        },
+        {
+          "text": "I traveled to Italy recently. What do I do?"
+        },
+        {
+          "text": "should i get tested"
+        },
+        {
+          "text": "should I get tested if I have a cough?"
+        },
+        {
+          "text": "Diagnosis"
+        },
+        {
+          "text": "corona predictor"
+        },
+        {
+          "text": "am i sick?"
+        },
+        {
+          "text": "I think I'm infected"
+        }
+      ],
+      "description": "Symptoms related to Covid 19."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "state",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Uttarakhand",
+          "synonyms": [
+            "Uttarakhand",
+            "Haldwani",
+            "Rishikesh"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tamil Nadu",
+          "synonyms": [
+            "tamilnadu",
+            "chennai",
+            "coimbatore",
+            "tiruchy",
+            "madurai",
+            "theni",
+            "Tirunelveli",
+            "thiruvarur",
+            "salem",
+            "Villupuram",
+            "Trichy",
+            "Perundurai",
+            "Dharmapuri",
+            "Vellore"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi",
+          "synonyms": [
+            "delhi",
+            "capital",
+            "capital of india"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Telangana",
+          "synonyms": [
+            "Telangana",
+            "Secunderabad",
+            "Hyderabad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rajasthan",
+          "synonyms": [
+            "Rajasthan",
+            "jaipur",
+            "Jhalawar",
+            "jodhpur",
+            "udaipur",
+            "Bikaner",
+            "ajmer",
+            "khota"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Punjab",
+          "synonyms": [
+            "Punjab",
+            "Amritsar",
+            "Patiala",
+            "Faridkot"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Odisha",
+          "synonyms": [
+            "Odisha",
+            "odissa",
+            "Bhubaneshwar",
+            "Cuttack",
+            "Berhampur"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tripura",
+          "synonyms": [
+            "Tripura",
+            "Agartala"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Uttar Pradesh",
+          "synonyms": [
+            "gorakhpur",
+            "agra",
+            "noida",
+            "kanpur",
+            "Uttar Pradesh",
+            "UttarPradesh",
+            "Lucknow",
+            "Varanasi",
+            "aligargh",
+            "aligarh",
+            "Meerut",
+            "allahabad",
+            "saifai",
+            "jhansi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AndraPradesh",
+          "synonyms": [
+            "AndraPradesh",
+            "Andra Pradesh",
+            "Andra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Assam",
+          "synonyms": [
+            "Assam"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bihar",
+          "synonyms": [
+            "Bihar",
+            "Patna",
+            "Darbhanga",
+            "Muzaffarpur"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chandigarh",
+          "synonyms": [
+            "Chandigarh"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chhattisgarh",
+          "synonyms": [
+            "Chhattisgarh",
+            "Raipur",
+            "Jagdalpur"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gujarat",
+          "synonyms": [
+            "Gujarat",
+            "Ahmedabad",
+            "Jamnagar",
+            "Surat",
+            "Bhavnagar",
+            "Vadodara",
+            "Rajkot"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Goa",
+          "synonyms": [
+            "Goa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Haryana",
+          "synonyms": [
+            "Haryana",
+            "Sonipat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Himachal Pradesh",
+          "synonyms": [
+            "Himachal Pradesh",
+            "HimachalPradesh",
+            "Shimla",
+            "Tanda"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jammu and Kashmir",
+          "synonyms": [
+            "Jammu and Kashmir",
+            "jammu",
+            "kashmir",
+            "Udhampur",
+            "Srinagar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jharkhand",
+          "synonyms": [
+            "Jharkhand",
+            "Jamshedpur",
+            "Ranchi",
+            "Dhanbad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Karnataka",
+          "synonyms": [
+            "Karnataka",
+            "Hassan",
+            "Mysore",
+            "Shivamogga",
+            "Bengaluru",
+            "Gulbarga",
+            "Bellary",
+            "Bangalore",
+            "Mangalore",
+            "Hubli"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kerela",
+          "synonyms": [
+            "Kerela",
+            "Allapuzzha",
+            "Thiruvanathapuram",
+            "Kozhikode",
+            "Thrissur",
+            "Trivandrum",
+            "Kottayam",
+            "Thalassery",
+            "Kasaragod"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dadra and Nagar Havel",
+          "synonyms": [
+            "Dadra and Nagar Havel",
+            "dadra",
+            "nagar",
+            "haveli"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Andaman and Nicobar Island",
+          "synonyms": [
+            "Andaman and Nicobar Island",
+            "Andaman",
+            "Nicobar",
+            "Andaman Nicobar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "West Bengal",
+          "synonyms": [
+            "West Bengal",
+            "WestBengal",
+            "Kolkata",
+            "Midnapore",
+            "Darjeeling",
+            "Malda"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maharashtra",
+          "synonyms": [
+            "Maharashtra",
+            "Pune",
+            "Mumbai",
+            "Bombay",
+            "Nagpur",
+            "Aurangabad",
+            "Solapur",
+            "Dhule",
+            "Miraj",
+            "Akola"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Meghalaya",
+          "synonyms": [
+            "Meghalaya",
+            "Shillong"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Madhya Pradesh",
+          "synonyms": [
+            "Madhya Pradesh",
+            "Gwalior",
+            "Bhopal",
+            "Jabalpur",
+            "Indore",
+            "MadhyaPradesh"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Manipur",
+          "synonyms": [
+            "Manipur",
+            "Imphal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mizoram",
+          "synonyms": [
+            "Mizoram"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Puducherry",
+          "synonyms": [
+            "Puducherry",
+            "Pondicherry",
+            "Pondi"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yesorno",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "no",
+            "nothing",
+            "without",
+            "never",
+            "any",
+            "not",
+            "none",
+            "nor"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "badhabits",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yes",
+            "yup",
+            "yep",
+            "yeah"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Smoke",
+          "synonyms": [
+            "smoke",
+            "smoking",
+            "cigarette",
+            "smoker",
+            "tobacco",
+            "cigarettes",
+            "smokers",
+            "cig",
+            "nicotine",
+            "cigar",
+            "tabacco",
+            "ciggie",
+            "yes",
+            "yep",
+            "yeah",
+            "yup"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "no",
+            "nope",
+            "nah",
+            "nothing",
+            "not",
+            "none",
+            "don't"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vape",
+          "synonyms": [
+            "vape",
+            "vaping",
+            "cig",
+            "ciggie",
+            "ecig",
+            "vaper",
+            "ecigarette"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "illness",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Asthma",
+          "synonyms": [
+            "Asthma",
+            "asthmatic",
+            "bronchitis",
+            "wheezing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "High blood pressure",
+          "synonyms": [
+            "High Blood Pressure",
+            "hypertensive",
+            "hypertension",
+            "high bp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Diabetes",
+          "synonyms": [
+            "Diabetes",
+            "diabetic",
+            "insulin",
+            "gestational",
+            "glucose",
+            "diabetis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "no",
+            "nope"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "symptoms",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Trouble waking up",
+          "synonyms": [
+            "Trouble waking up",
+            "trouble getting up",
+            "dizzy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "confusion",
+          "synonyms": [
+            "Incoherent",
+            "confusion",
+            "ambiguity",
+            "disjointed",
+            "bewilderment",
+            "illogical",
+            "unfocused",
+            "incoherence",
+            "inarticulate",
+            "confusions"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pain or pressure in their chest that won't go away",
+          "synonyms": [
+            "chest pain",
+            "uneasiness in chest",
+            "pain in chest",
+            "Pain or pressure in their chest that won't go away"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Trouble breathing",
+          "synonyms": [
+            "Trouble breathing",
+            "wheezing",
+            "wheezes",
+            "breathlessness",
+            "shortness",
+            "bronchospasm",
+            "asthmatic",
+            "asthma",
+            "wheeze"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fatigue",
+          "synonyms": [
+            "fatigue",
+            "tiredness",
+            "exhaustion",
+            "weariness",
+            "fatique",
+            "lethargy",
+            "irritability",
+            "listlessness",
+            "restlessness",
+            "sleeplessness",
+            "sluggishness",
+            "moodiness",
+            "sleepiness",
+            "fogginess",
+            "achiness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fever",
+          "synonyms": [
+            "fever",
+            "high temperature",
+            "fevers",
+            "heat",
+            "slight temperature",
+            "cold",
+            "running nose",
+            "influenza",
+            "sneezing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Slurred speech",
+          "synonyms": [
+            "Slurred speech",
+            "Slur in speech",
+            "improper speech"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Blueish face or lips",
+          "synonyms": [
+            "blue",
+            "blue lips",
+            "blue face",
+            "face turned blue",
+            "lips turned blue",
+            "Blueish face or lips"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "no",
+            "nope",
+            "nah",
+            "nothing",
+            "not"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://53rk6szove.execute-api.us-east-1.amazonaws.com/dev/",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "application/json"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "parent": "node_8_1587245960203",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_8_1587309169866",
+      "previous_sibling": "response_1_1587309167051"
+    },
+    {
+      "type": "frame",
+      "parent": "node_8_1587245960203",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symptoms": "@symptoms",
+            "badHabits": "",
+            "medicalIssues": ""
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#symptoms",
+      "dialog_node": "node_5_1587246170691",
+      "previous_sibling": "response_2_1587309171162"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_8_1587245960203",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1587309171162",
+      "previous_sibling": "response_8_1587309169866"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I understand your concern. Lets find out your chances of infection first. Do you have any symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Symptoms",
+            "options": [
+              {
+                "label": "Blueish face or lips",
+                "value": {
+                  "input": {
+                    "text": "Blueish face or lips"
+                  }
+                }
+              },
+              {
+                "label": "Confusion",
+                "value": {
+                  "input": {
+                    "text": "Confusion"
+                  }
+                }
+              },
+              {
+                "label": "Cold, Cough, fever",
+                "value": {
+                  "input": {
+                    "text": "Cold, Cough, fever"
+                  }
+                }
+              },
+              {
+                "label": "No symptoms",
+                "value": {
+                  "input": {
+                    "text": "No symptoms"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "<?$badhabits=null?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1587245960203",
+      "dialog_node": "response_1_1587309167051"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Which state are you currently residing in"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1587314341005",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1587314341005",
+      "previous_sibling": "handler_3_1587314341005"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1587314341005",
+      "context": {
+        "state": "@state"
+      },
+      "conditions": "@state",
+      "event_name": "input",
+      "dialog_node": "handler_3_1587314341005"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Do you smoke or vape"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1587320202898",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1587320202905",
+      "previous_sibling": "handler_1_1587320202905"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1587320202898",
+      "context": {
+        "badhabits": "@badhabits"
+      },
+      "conditions": "@badhabits",
+      "event_name": "input",
+      "dialog_node": "handler_1_1587320202905"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_4.body"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<?$webhook_result_6.body[0].helpline?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1587314340999",
+      "conditions": "$webhook_result_4.body=='Call Emergency helpline'",
+      "dialog_node": "response_9_1587352825703",
+      "previous_sibling": "response_5_1587314341005"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_8.body"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<?$webhook_result_6.body[0].center.join(',')?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1587314340999",
+      "conditions": "$webhook_result_8.body=='Call the doctor.' || $webhook_result_8.body=='Call the doctor'",
+      "dialog_node": "response_5_1587314341005",
+      "previous_sibling": "slot_2_1587314341005"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have any chronic medical issues?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587314340999",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1587314341005",
+      "previous_sibling": "response_9_1587352825703"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1587314340999",
+      "variable": "$state",
+      "dialog_node": "slot_2_1587314341005"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have any medical issues?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1587319679825",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1587319679858",
+      "previous_sibling": "handler_6_1587319679858"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1587319679825",
+      "context": {
+        "illness": "@illness"
+      },
+      "conditions": "@illness",
+      "event_name": "input",
+      "dialog_node": "handler_6_1587319679858"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Which state do you belong to?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1587317285686",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1587317285698",
+      "previous_sibling": "handler_7_1587317285698"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1587317285686",
+      "context": {
+        "state": "@state"
+      },
+      "conditions": "@state",
+      "event_name": "input",
+      "dialog_node": "handler_7_1587317285698"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What symptoms are you currently facing?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1587312965506",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1587312965527",
+      "previous_sibling": "handler_9_1587312965527"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1587312965506",
+      "context": {
+        "symptoms": "@symptoms"
+      },
+      "conditions": "@symptoms",
+      "event_name": "input",
+      "dialog_node": "handler_9_1587312965527"
+    },
+    {
+      "type": "frame",
+      "parent": "node_5_1587246170691",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symptoms": "$symptoms",
+            "badHabits": "$badhabits",
+            "medicalIssues": "$illness"
+          },
+          "result_variable": "webhook_result_8"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#illness",
+      "dialog_node": "node_1_1587319497314",
+      "previous_sibling": "node_1_1587314340999"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Can you please tell me which state you are currently residing in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1587246170691",
+      "conditions": "$webhook_result_4.body=='Call Emergency helpline'",
+      "dialog_node": "response_8_1587310426511",
+      "previous_sibling": "slot_7_1587312965506"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have any chronic medical issues?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Medical issues",
+            "options": [
+              {
+                "label": "Diabetes",
+                "value": {
+                  "input": {
+                    "text": "Diabetes"
+                  }
+                }
+              },
+              {
+                "label": "Hypertension",
+                "value": {
+                  "input": {
+                    "text": "Hypertension"
+                  }
+                }
+              },
+              {
+                "label": "No, I dont have any issues",
+                "value": {
+                  "input": {
+                    "text": "No, I dont have any issues"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1587246170691",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1587310427703",
+      "previous_sibling": "response_8_1587310426511"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1587246170691",
+      "variable": "$symptoms",
+      "dialog_node": "slot_7_1587312965506",
+      "previous_sibling": "node_1_1587319497314"
+    },
+    {
+      "type": "frame",
+      "output": {},
+      "parent": "node_5_1587246170691",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "state": "@state"
+          },
+          "result_variable": "webhook_result_6"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#state",
+      "dialog_node": "node_1_1587314340999"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Can you please tell me which state you are currently residing in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587319497314",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1587314340999"
+      },
+      "conditions": "$webhook_result_8.body=='Call the doctor.' || $webhook_result_8.body=='Call the doctor'",
+      "dialog_node": "response_4_1587319681685",
+      "previous_sibling": "slot_2_1587320202898"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1587319497314",
+      "variable": "$badhabits",
+      "dialog_node": "slot_2_1587320202898",
+      "previous_sibling": "slot_6_1587319679825"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<?$webhook_result_8.body?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1587319497314",
+      "conditions": "$webhook_result_8",
+      "dialog_node": "response_8_1587319678798",
+      "previous_sibling": "response_4_1587319681685"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1587319497314",
+      "variable": "$illness",
+      "dialog_node": "slot_6_1587319679825"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Helpline Number: <?$webhook_result_7.body[0].helpline?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<?$webhook_result_7.body[0].center.join(',')?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1587317210554",
+      "conditions": "$webhook_result_7",
+      "dialog_node": "response_1_1587317284625",
+      "previous_sibling": "slot_2_1587317285686"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_8_1587317210554",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1587317287802",
+      "previous_sibling": "response_1_1587317284625"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1587317210554",
+      "variable": "$state",
+      "dialog_node": "slot_2_1587317285686"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1587515568010",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_6_1587515568010",
+      "previous_sibling": "node_8_1587245960203"
+    },
+    {
+      "type": "frame",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "state": "$state"
+          },
+          "result_variable": "webhook_result_7"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#testingcenter || #Covid_Testing_Locations",
+      "dialog_node": "node_8_1587317210554",
+      "previous_sibling": "node_2_1587514385855"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good day to you. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "I can assist you to find ",
+            "options": [
+              {
+                "label": "Nearby Testing centers in India",
+                "value": {
+                  "input": {
+                    "text": "Nearby Testing centers in India"
+                  }
+                }
+              },
+              {
+                "label": "Diagnosis",
+                "value": {
+                  "input": {
+                    "text": "Diagnosis"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_2_1587514385855",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symptoms": ""
+          },
+          "result_variable": "webhook_result_4"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Covid_Symptoms",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1587245960203",
+      "previous_sibling": "node_8_1587317210554"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am COVID crisis communication bot. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "I can help you with"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Nearby Testing centers in India",
+                "value": {
+                  "input": {
+                    "text": "testing centers"
+                  }
+                }
+              },
+              {
+                "label": "Diagnosis",
+                "value": {
+                  "input": {
+                    "text": "Diagnosis"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Detection skill",
+  "language": "en",
+  "description": ""
+}
