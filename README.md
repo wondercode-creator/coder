@@ -14,9 +14,9 @@
 * AWS API Gateway - The API framework used
 
 
-#Authors
-######Amirtharaj S John
-######Saravanan Govindan
-######Indu
-######Sathish
-######Rajesh
+# Authors
+* Amirtharaj S John
+* Saravanan Govindan
+* Indu
+* Sathish
+* Rajesh
