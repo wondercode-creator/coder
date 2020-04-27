@@ -31,4 +31,6 @@
 
 # Demo
 
-![Architecture](https://www.youtube.com/watch?v=vnIOFDTXJU8&feature=youtu.be)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=vnIOFDTXJU8&feature=youtu.be"><img src="https://github.com/wondercode-creator/coder/blob/master/covid19.PNG" ></a>
+</div>
